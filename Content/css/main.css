@@ -2,8 +2,10 @@ body {
 
 	padding: 0;
 	margin: 0;
-	background: url(../images/bg_wrapper-footer.png) !important;
+	/*background: url(../images/bg_wrapper-footer.png) !important;
 	/*background: url(../images/main_bg.png) #eee;*/
+	background: url(../images/bg-con2.gif) repeat-x;
+	background-color: #EEEEEE;
 	font-family: newfont;
 }
 a {

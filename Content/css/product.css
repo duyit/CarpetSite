@@ -1,116 +1,292 @@
 /*Modify css for ProductAll*/
-
-.main .content .topProduct{
+.main .content .topProduct {
 	width: 901px;
 	height: 58px;
-	background: url(../images/insidebottom_.png);	
-	margin:auto;
+	background: url(../images/insidebottom_.png);
+	margin: auto;
 	border-radius: 0px 0px 8px 8px;
 	-moz-box-shadow: 2px 3px 10px #000000;
 	-webkit-box-shadow: 2px 3px 10px rgb(236, 236, 236);
 	box-shadow: 2px 3px 10px rgb(219, 217, 217);
- }
- .main .content .topProduct .titleProduct
- {
- 	font-family: newfont;
+}
+.main .content .topProduct .titleProduct {
+	font-family: newfont;
 	font-size: 26px;
 	width: 120px;
 	font-weight: bold;
 	color: #fff;
-	padding: 15px 18px;
+	padding: 15px 5px;
 	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
 	float: left;
- }
- .main .content .productAll {
-	width: 85%;
-	min-height: 435px;
-	margin: 15px auto auto auto;
-	position: relative;
-	z-index: 9999;
-	background: url(../images/bg_.png);
-	padding: 5px 0px 15px 5px;
 }
-.main .content .productAll .groupItem {
-	width: 100%;
-	height: 400px;
+.main .content .listProduct {
+	width: 90%;
+	margin: auto;
+	min-height: 500px;
+	border-top: 0;
+	padding: 10px;
 }
-.main .content .productAll .groupItem .animation {
-	width: 100%;
-	height: 100%;
-}
-.main .content .productAll .groupItem .animation .animationScroll {
-	width: 100%;
-	height: 100%;
-}
-.main .content .productAll .titleProduct {
+.main .content .titleProduct {
 	font-family: newfont;
 	font-size: 26px;
-	width: 500px;
+	width: 85%;
 	font-weight: bold;
 	color: #fff;
-	height: 50px;
-	margin: 20px 0 20px 0px;
-	text-shadow: 2px 2px 3px rgba(32,32,32, 1);
+	padding: 16px 18px 20px 18px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+	background: url(../images/insidebottom_.png);
+	z-index: 20;
+	border-radius: 0px 0px 8px 8px;
+	-moz-box-shadow: 2px 3px 10px #000000;
+	-webkit-box-shadow: 2px 3px 10px rgb(236, 236, 236);
+	box-shadow: 2px 3px 10px rgb(219, 217, 217);
+	margin: 0px auto 20px auto;
 }
-.main .content .productAll .item {
-	width: 23.1%;
-	height: 346px;
+.main .content .listProduct .title {
+	padding: 15px 10px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+}
+.main .content .listProduct .leftProduct {
+	width: 65%;
+	min-height: 500px;
 	float: left;
-	margin-left: 12px;
-	margin-top: 12px;
-	background: rgb(225, 232, 245);
-	position: relative;
+	border: 1px solid #dedede;
+	background: #FFF;
+	text-align: left;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	margin-left: 10px;
 }
-
-.main .content .productAll .item .img {
+.main .content .listProduct .leftProduct .groupItemProduct {
+	width: 95%;
+	margin: auto;
+	height: auto;
+}
+.main .content .listProduct .leftProduct .groupItemProduct .line1 {
+	border-bottom: 1px solid #ddd;
+}
+.main .content .listProduct .leftProduct .groupItemProduct .itemProduct {
+	width: 95%;
+	min-height: 100px;
+	padding: 5px;
+	margin: 10px 0 0 0;
+}
+.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .itemImg {
+	width: 150px;
+	min-height: 160px;
+	padding: 5px;
+	float: left;
+}
+.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .itemImg img {
 	width: 100%;
-	height: 230px;
 }
-.main .content .productAll .item .info {
-	width: 160px;
-	height: 100px;
-	padding: 16px 20px 0px 20px;
+.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .info {
+	width: 63.5%;
+	float: left;
+	min-height: 140px;
+	padding: 15px 5px;
+	margin-left: 15px;
+}
+.main .content .listProduct .rightProduct {
+	width: 29.5%;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+}
+.main .content .listProduct .rightProduct .menu {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	padding: 90px 20px 20px 20px;
+	margin-bottom: 30px;
+}
+.main .content .listProduct .rightProduct .box, .main .content .listProduct .rightProduct .box_online {
+	border: 1px solid #dedede;
+	background: #FFF;
+	text-align: left;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+}
+.main .content .listProduct .rightProduct .menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 25px;
+	list-style: none;
+}
+.main .content .listProduct .rightProduct .menu ul li {
+	margin: 0;
+	padding: 8px 0px 8px 0px;
+	border-bottom: 1px dashed #dedede;
+	outline: none;
+	margin-top: -1px;
+}
+.main .content .listProduct .rightProduct .menu ul li a {
+	text-decoration: none;
+}
+.main .content .listProduct .rightProduct .box .panel_title {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	z-index: 100;
+	margin: -70px 0px 0px -31px;
+}
+.main .content .listProduct .rightProduct .box .panel_title_add, .page_title_add {
+	width: 10px;
+	height: 6px;
+	background: url(../images/panel_title_add.png) no-repeat;
+}
+.main .content .listProduct .rightProduct .box .red_box_product {
+	width: auto;
+	height: auto;
+	background-color: #dd3939;
+	border: 1px solid #be1818;
+	box-shadow: inset 1px 1px 1px #ff8d8d;
+	-webkit-box-shadow: inset 1px 1px 1px #ff8d8d;
+	-moz-box-shadow: inset 1px 1px 1px #ff8d8d;
+	padding: 3px;
+	float: left;
+	display: block;
+}
+.main .content .listProduct .rightProduct .box .panel_title p, .app_details_title p {
+	margin: 0px;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 7px 12px 5px 12px;
+	letter-spacing: -1px;
+}
+.main .content .listProduct .rightProduct .online {
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	padding: 90px 20px 20px 20px;
+	margin-bottom: 30px;
 	text-align: center;
 }
-.main .content .productAll .item .info:hover {
-	background: #fff;
-	cursor: pointer
+.main .content .listProduct .rightProduct .online .skypeYahoo {
+	margin: 0;
+	padding: 5px 0px 8px 0px;
+	border-bottom: 1px dashed #dedede;
+	outline: none;
 }
-.main .content .productAll .item .info button {
-	margin-top: 15px;
-}
-.main .content .productAll .item .info .titleItem {
-	font-size: 20px;
-	line-height: 10px;
-	color: #106f87;
-	text-align: left;
-}
-.main .content .productAll .item .info .summaryItem {
-	font-size: 16px;
-	color: #323232;
-	margin: 10px 0 10px 0;
-}
-.main .content .productAll .item .img img {
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo {
 	width: 100%;
-	height: 100%;
+	height: 60px;
 }
- .main .content .topProduct .navtivation {
-	-webkit-box-shadow: 0 -1px 0 rgb(212, 240, 8);
-	box-shadow: 0 -1px 0 rgb(11, 89, 207);
-	border-top: 1px solid rgb(255, 255, 255);
-	height: 2px;
-	width: 82.2%;
-	margin: auto;
-	margin-top: 30px;
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo .nameYahoo
+{
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a img
+{
 	float: left;
 }
- .main .content .topProduct .navtivation_soft {
-	-webkit-box-shadow: 0 -1px 0 rgb(212, 240, 8);
-	box-shadow: 0 -1px 0 rgb(11, 89, 207);
-	border-top: 1px solid rgb(255, 255, 255);
-	height: 2px;
-	width: 2%;
-	margin:30px auto auto 5px;	
+.main .content .listProduct .rightProduct .online .skypeYahoo .skype {
+	width: 100%;
+	height: 40px;
+}
+.main .content .listProduct .rightProduct .online .skypeYahoo .skype .nameSkype {
+	float: left;
+	margin-top: -8px;
+	margin-left: 10px;
+}
+.main .content .listProduct .rightProduct .online .skypeYahoo .skype a img {
 	float: left;
 }
- /*End*/
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a, .main .content .listProduct .rightProduct .online .skypeYahoo .skype a {
+	float: left;
+	widtf: 100%;
+}
+.main .content .listProduct .rightProduct .online .skypeYahoo .titleBusiness {
+	font-size: 20px;
+}
+.main .content .listProduct .rightProduct .box_online .panel_title {
+	position: absolute;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	z-index: 100;
+	margin: -70px 0px 0px -31px;
+}
+.main .content .listProduct .rightProduct .box_online .panel_title_add, .page_title_add {
+	width: 10px;
+	height: 6px;
+	background: url(../images/panel_title_add.png) no-repeat;
+}
+.main .content .listProduct .rightProduct .box_online .red_box_product {
+	width: auto;
+	height: auto;
+	background-color: #dd3939;
+	border: 1px solid #be1818;
+	box-shadow: inset 1px 1px 1px #ff8d8d;
+	-webkit-box-shadow: inset 1px 1px 1px #ff8d8d;
+	-moz-box-shadow: inset 1px 1px 1px #ff8d8d;
+	padding: 3px;
+	float: left;
+	display: block;
+}
+.main .content .listProduct .rightProduct .box_online .panel_title p, .app_details_title p {
+	margin: 0px;
+	font-size: 22px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 7px 12px 5px 12px;
+	letter-spacing: -1px;
+}
+
+.facebook_like {
+	width: 270px;
+	height: 111px;
+	display: block;
+	background: url(../img/facebook_add.png) no-repeat;
+	outline: none;
+	overflow: hidden;
+}
+.facebook_like_content {
+	margin-bottom: 30px;
+	padding: 13px;
+	border: 1px solid #dedede;
+	background: #FFF;
+}
+.photostats_add {
+	background: url(../img/photostats-add.png) no-repeat scroll left top transparent;
+	height: 186px;
+	margin-bottom: 20px;
+	width: 270px;
+	cursor: pointer;
+}
+.pager {
+	height: 54px;
+	margin-bottom: 40px;
+	padding: 0 0 0 20px !important;
+	width: auto;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	text-align: left !important;
+}
+.item-list .pager li {
+	display: block !important;
+	float: left !important;
+	margin: 0 0 0.25em 0.5em !important;
+}
+.pager-current {
+	background-color: #dd3939;
+	border: 1px solid #be1818;
+	box-shadow: inset 1px 1px 1px #ff8d8d;
+	-webkit-box-shadow: inset 1px 1px 1px #ff8d8d;
+	padding: 5px 14px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+/*End*/
