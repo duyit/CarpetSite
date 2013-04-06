@@ -179,23 +179,22 @@
 	width: 100%;
 	height: 60px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo .nameYahoo
-{
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo .nameYahoo {
 	float: left;
 	margin-top: 15px;
 	margin-left: 10px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a img
-{
+.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a img {
 	float: left;
 }
 .main .content .listProduct .rightProduct .online .skypeYahoo .skype {
 	width: 100%;
 	height: 40px;
+	margin-top: 10px;
 }
 .main .content .listProduct .rightProduct .online .skypeYahoo .skype .nameSkype {
 	float: left;
-	margin-top: -8px;
+	margin-top: -20px;
 	margin-left: 10px;
 }
 .main .content .listProduct .rightProduct .online .skypeYahoo .skype a img {
@@ -262,6 +261,45 @@
 	margin-bottom: 20px;
 	width: 270px;
 	cursor: pointer;
+	position: relative;
+	
+}
+.photostats_add .slideShowProductNew
+
+{
+	width:94%;
+	height:100%;
+	overflow: hidden;
+	margin:auto;
+}
+.photostats_add .productNew {
+	position: absolute;
+	width: 85.2%;
+	padding: 10px 20px;
+	background: url(../images/bg_product_new.png);
+	bottom: 25px;
+	font-size: 20px;
+	color: #fff;
+	z-index: 200;
+}
+.photostats_add .marQuee {
+	width: 1000px;
+	height: 85%;
+	margin: auto;
+	padding: 10px 10px 10px 3px;
+	z-index: 10;
+}
+.photostats_add .marQuee .imageShow
+{
+	width:100%;
+	height:100%;
+}
+.photostats_add .marQuee img {
+	width: 250px;
+	height: 155px;
+	z-index: 1;
+	float: left;
+	margin-right: 10px;
 }
 .pager {
 	height: 54px;

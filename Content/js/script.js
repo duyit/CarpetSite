@@ -6,7 +6,7 @@ var runButton = 0;
 var checkButton = 0;
 
 function StartAnimation() {
-	//interval1 = setInterval(Prev, 1500);
+	interval1 = setInterval(SlideShowProductNew, 3000);
 	
 }
 function StartSlideShow()
@@ -83,6 +83,22 @@ function SlideShow() {
 	}
 }
 
+function SlideShowProductNew() {
+	var array = $('.marQuee').find('img').get();
+	if (array.length == 0)
+		return;
+	var w = $(array[0]).width() + 12;
+	$(".marQuee").animate({
+		"margin-left" : "-" + w + "px"
+	}, 800, function() {
+		$(".marQuee .imageShow").append($(array[0]));
+		$(".marQuee").attr({
+			"style" : ""
+		});
+		//$(".marQuee .imageShow").find($(array[2])).hide();
+		//$(".marQuee").find($(array[2])).fadeIn("slow");
+	});
+}
 
 $(document).ready(function() {
 	$('.btnPrev, .btnNext').hide();
