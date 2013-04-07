@@ -1,25 +1,5 @@
 /*Modify css for ProductAll*/
-.main .content .topProduct {
-	width: 901px;
-	height: 58px;
-	background: url(../images/insidebottom_.png);
-	margin: auto;
-	border-radius: 0px 0px 8px 8px;
-	-moz-box-shadow: 2px 3px 10px #000000;
-	-webkit-box-shadow: 2px 3px 10px rgb(236, 236, 236);
-	box-shadow: 2px 3px 10px rgb(219, 217, 217);
-}
-.main .content .topProduct .titleProduct {
-	font-family: newfont;
-	font-size: 26px;
-	width: 120px;
-	font-weight: bold;
-	color: #fff;
-	padding: 15px 5px;
-	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
-	float: left;
-}
-.main .content .listProduct {
+.main .content .list {
 	width: 90%;
 	margin: auto;
 	min-height: 500px;
@@ -42,13 +22,13 @@
 	box-shadow: 2px 3px 10px rgb(219, 217, 217);
 	margin: 0px auto 20px auto;
 }
-.main .content .listProduct .title {
+.main .content .list .title {
 	padding: 15px 10px;
 	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
 }
-.main .content .listProduct .leftProduct {
+.main .content .list .leftProduct {
 	width: 65%;
-	min-height: 500px;
+	min-height: 1245px;
 	float: left;
 	border: 1px solid #dedede;
 	background: #FFF;
@@ -59,51 +39,57 @@
 	-o-border-radius: 4px;
 	-khtml-border-radius: 4px;
 	margin-left: 10px;
+	position:relative;
 }
-.main .content .listProduct .leftProduct .groupItemProduct {
+.main .content .list .leftProduct .groupItemProduct {
 	width: 95%;
 	margin: auto;
 	height: auto;
 }
-.main .content .listProduct .leftProduct .groupItemProduct .line1 {
+.main .content .list .leftProduct .item-list
+{
+	position:absolute;
+	bottom:0;
+}
+.main .content .list .leftProduct .groupItemProduct .line1 {
 	border-bottom: 1px solid #ddd;
 }
-.main .content .listProduct .leftProduct .groupItemProduct .itemProduct {
+.main .content .list .leftProduct .groupItemProduct .itemProduct {
 	width: 95%;
 	min-height: 100px;
 	padding: 5px;
 	margin: 10px 0 0 0;
 }
-.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .itemImg {
+.main .content .list .leftProduct .groupItemProduct .itemProduct .itemImg {
 	width: 150px;
 	min-height: 160px;
 	padding: 5px;
 	float: left;
 }
-.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .itemImg img {
+.main .content .list .leftProduct .groupItemProduct .itemProduct .itemImg img {
 	width: 100%;
 }
-.main .content .listProduct .leftProduct .groupItemProduct .itemProduct .info {
+.main .content .list .leftProduct .groupItemProduct .itemProduct .info {
 	width: 63.5%;
 	float: left;
 	min-height: 140px;
 	padding: 15px 5px;
 	margin-left: 15px;
 }
-.main .content .listProduct .rightProduct {
+.main .content .list .right {
 	width: 29.5%;
 	height: auto;
 	float: left;
 	margin-left: 20px;
 }
-.main .content .listProduct .rightProduct .menu {
+.main .content .list .right .menu {
 	width: auto;
 	height: auto;
 	overflow: hidden;
 	padding: 90px 20px 20px 20px;
 	margin-bottom: 30px;
 }
-.main .content .listProduct .rightProduct .box, .main .content .listProduct .rightProduct .box_online {
+.main .content .list .right .box, .main .content .list .right .box_online {
 	border: 1px solid #dedede;
 	background: #FFF;
 	text-align: left;
@@ -113,22 +99,22 @@
 	-o-border-radius: 4px;
 	-khtml-border-radius: 4px;
 }
-.main .content .listProduct .rightProduct .menu ul {
+.main .content .list .right .menu ul {
 	margin: 0;
 	padding: 0px 0px 0px 25px;
 	list-style: none;
 }
-.main .content .listProduct .rightProduct .menu ul li {
+.main .content .list .right .menu ul li {
 	margin: 0;
 	padding: 8px 0px 8px 0px;
 	border-bottom: 1px dashed #dedede;
 	outline: none;
 	margin-top: -1px;
 }
-.main .content .listProduct .rightProduct .menu ul li a {
+.main .content .list .right .menu ul li a {
 	text-decoration: none;
 }
-.main .content .listProduct .rightProduct .box .panel_title {
+.main .content .list .right .box .panel_title {
 	position: absolute;
 	width: auto;
 	height: auto;
@@ -136,12 +122,12 @@
 	z-index: 100;
 	margin: -70px 0px 0px -31px;
 }
-.main .content .listProduct .rightProduct .box .panel_title_add, .page_title_add {
+.main .content .list .right .box .panel_title_add, .page_title_add {
 	width: 10px;
 	height: 6px;
 	background: url(../images/panel_title_add.png) no-repeat;
 }
-.main .content .listProduct .rightProduct .box .red_box_product {
+.main .content .list .right .box .red_box_product {
 	width: auto;
 	height: auto;
 	background-color: #dd3939;
@@ -153,7 +139,7 @@
 	float: left;
 	display: block;
 }
-.main .content .listProduct .rightProduct .box .panel_title p, .app_details_title p {
+.main .content .list .right .box .panel_title p, .app_details_title p {
 	margin: 0px;
 	font-size: 22px;
 	font-weight: normal;
@@ -161,7 +147,7 @@
 	padding: 7px 12px 5px 12px;
 	letter-spacing: -1px;
 }
-.main .content .listProduct .rightProduct .online {
+.main .content .list .right .online {
 	width: auto;
 	height: auto;
 	overflow: hidden;
@@ -169,45 +155,45 @@
 	margin-bottom: 30px;
 	text-align: center;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo {
+.main .content .list .right .online .skypeYahoo {
 	margin: 0;
 	padding: 5px 0px 8px 0px;
 	border-bottom: 1px dashed #dedede;
 	outline: none;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo {
+.main .content .list .right .online .skypeYahoo .yahoo {
 	width: 100%;
 	height: 60px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo .nameYahoo {
+.main .content .list .right .online .skypeYahoo .yahoo .nameYahoo {
 	float: left;
 	margin-top: 15px;
 	margin-left: 10px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a img {
+.main .content .list .right .online .skypeYahoo .yahoo a img {
 	float: left;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .skype {
+.main .content .list .right .online .skypeYahoo .skype {
 	width: 100%;
 	height: 40px;
 	margin-top: 10px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .skype .nameSkype {
+.main .content .list .right .online .skypeYahoo .skype .nameSkype {
 	float: left;
 	margin-top: -20px;
 	margin-left: 10px;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .skype a img {
+.main .content .list .right .online .skypeYahoo .skype a img {
 	float: left;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .yahoo a, .main .content .listProduct .rightProduct .online .skypeYahoo .skype a {
+.main .content .list .right .online .skypeYahoo .yahoo a, .main .content .list .right .online .skypeYahoo .skype a {
 	float: left;
 	widtf: 100%;
 }
-.main .content .listProduct .rightProduct .online .skypeYahoo .titleBusiness {
+.main .content .list .right .online .skypeYahoo .titleBusiness {
 	font-size: 20px;
 }
-.main .content .listProduct .rightProduct .box_online .panel_title {
+.main .content .list .right .box_online .panel_title {
 	position: absolute;
 	width: auto;
 	height: auto;
@@ -215,12 +201,12 @@
 	z-index: 100;
 	margin: -70px 0px 0px -31px;
 }
-.main .content .listProduct .rightProduct .box_online .panel_title_add, .page_title_add {
+.main .content .list .right .box_online .panel_title_add, .page_title_add {
 	width: 10px;
 	height: 6px;
 	background: url(../images/panel_title_add.png) no-repeat;
 }
-.main .content .listProduct .rightProduct .box_online .red_box_product {
+.main .content .list .right .box_online .red_box_product {
 	width: auto;
 	height: auto;
 	background-color: #dd3939;
@@ -232,7 +218,7 @@
 	float: left;
 	display: block;
 }
-.main .content .listProduct .rightProduct .box_online .panel_title p, .app_details_title p {
+.main .content .list .right .box_online .panel_title p, .app_details_title p {
 	margin: 0px;
 	font-size: 22px;
 	font-weight: normal;
@@ -262,15 +248,12 @@
 	width: 270px;
 	cursor: pointer;
 	position: relative;
-	
 }
-.photostats_add .slideShowProductNew
-
-{
-	width:94%;
-	height:100%;
+.photostats_add .slideShowProductNew {
+	width: 94%;
+	height: 100%;
 	overflow: hidden;
-	margin:auto;
+	margin: auto;
 }
 .photostats_add .productNew {
 	position: absolute;
@@ -289,10 +272,9 @@
 	padding: 10px 10px 10px 3px;
 	z-index: 10;
 }
-.photostats_add .marQuee .imageShow
-{
-	width:100%;
-	height:100%;
+.photostats_add .marQuee .imageShow {
+	width: 100%;
+	height: 100%;
 }
 .photostats_add .marQuee img {
 	width: 250px;
@@ -327,4 +309,57 @@
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 }
+/*Css for product_info*/
+.content .list .leftProduct .infoProduct {
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+}
+.content .list .leftProduct .infoProduct .topInfoProduct {
+	min-height: 250px;
+	width: 90%;
+	margin: auto;
+	border-bottom: 1px dashed #dedede;
+	outline: none;
+}
+.content .list .leftProduct .infoProduct .topInfoProduct .imgInfoProduct {
+	width: 250px;
+	height: 250px;
+	float: left;
+	padding: 10px 10px 10px 0px;
+	border: 1px solid #d9d9d9;
+	background-color: #ffffff;
+	padding: 5px;
+	margin: 20px 0px;
+}
+.content .list .leftProduct .infoProduct .topInfoProduct .leftInfo {
+	height: auto;
+	width: 40%;
+	float: left;
+	margin:20px 10px;			
+}
+.content .list .leftProduct .infoProduct .topInfoProduct .leftInfo .titleInfoProduct
+{
+	font-size:26px;
+	color:#b21818;
+	margin:10px 0 15px 0;
+	text-transform:uppercase;
+}
+.content .list .leftProduct .infoProduct .topInfoProduct .leftInfo .sizes
+{
+	font-size:16px;
+}
+.content .list .leftProduct .infoProduct .topInfoProduct .imgInfoProduct img {
+	width: 100%;
+	height: 100%;
+}
+.content .list .leftProduct .infoProduct .ctInfoProduct {
+	height: auto;
+	width: 90%;
+	margin: auto;
+}
+.content .list .leftProduct .infoProduct .ctInfoProduct .contentInfoProduct {
+	width: 100%;
+}
+/*end*/
 /*End*/

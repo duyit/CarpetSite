@@ -1,0 +1,62 @@
+.content .contact {
+	width: 100%;
+	min-height: 400px;
+	background: #fff;
+	padding: 20px 0;
+}
+.content .contact .maps
+{
+	width:88%;
+	min-height:500px;
+	border:1px solid #ddd;
+	margin:auto;
+	padding:10px;
+}
+.content .contact .leftContact {
+	width: 45%;
+	float: left;
+	padding: 10px;
+	border-right: 1px dashed #dedede;
+}
+.content .contact .connectTitle {
+	font-size: 26px;
+	width: 95%;
+	height: 40px;
+	padding: 10px 0 10px 50px;
+	font-weight: bold;
+}
+.content .contact .leftContact .infoCompany {
+	width: 90%;
+	min-height: 300px;
+	font-size: 17px;
+	padding: 0 0 0 40px;
+}
+.content .contact .leftContact .infoCompany .leftTitleInfoCompany {
+	width: 30%;
+	float: left;
+	height: 50px;
+	font-weight: bold;
+	clear: left;
+	color:#b21818;
+}
+.content .contact .leftContact .infoCompany .rightInfoCompany {
+	width: 50%;
+	height: 50px;
+	float: left;
+}
+.content .contact .rightContact {
+	width: 31%;
+	float: left;
+	padding: 10px 10px 10px 40px;
+}
+.content .contact .rightContact form input {
+	width: 350px;
+}
+.content .contact .rightContact form input[name="phone"]
+{
+	width:200px;
+}
+.content .contact .rightContact form textarea {
+	width: 350px;
+	height: 100px;
+}
