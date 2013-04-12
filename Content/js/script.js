@@ -131,4 +131,9 @@ $(document).ready(function() {
 		$('.btnBlue').removeClass("btnYellow");
 		$(this).addClass("btnYellow");
 	});
+	
+	$('.nav ul li,.nav ul li a').hover(function()
+	{
+		$(this).parent().find("ul.subNav").slideDown('fast').show();
+	});
 }); 

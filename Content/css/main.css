@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	/*background: url(../images/bg_wrapper-footer.png) !important;
-	/*background: url(../images/main_bg.png) #eee;*/
+	 /*background: url(../images/main_bg.png) #eee;*/
 	background: url(../images/bg-con2.gif) repeat-x;
 	background-color: #EEEEEE;
 	font-family: newfont;
@@ -59,11 +59,11 @@ a {
 	box-shadow: 4px 2px 32px #ffffff;
 }
 .main .header .inner-head .menu .nav {
-	width: 60%;
+	width: 61%;
 	height: 90px;
 	float: right;
 	position: absolute;
-	left: 36%;
+	left: 33.5%;
 	z-index: 1;
 	top: 20px;
 }
@@ -92,6 +92,35 @@ a {
 .main .header .inner-head .menu .nav ul li a:hover {
 	color: #000000;
 	text-shadow: 5px 6px 6px rgba(0, 0, 0, 1);
+}
+.main .header .inner-head .menu .nav ul li ul.subNav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 0;
+	top: 35px;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+.main .header .inner-head .menu .nav ul li ul.subNav li {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+.main .header .inner-head .menu .nav ul li ul.subNav li a {
+
+    float: left;
+    width: 145px;
+    background: #333 url(dropdown_linkbg.gif) no-repeat 10px center;
+    padding-left: 20px;
+
 }
 .main .banner {
 	width: 100%;
@@ -636,7 +665,7 @@ a {
 	padding: 7px;
 	float: left;
 	display: block;
-	left:975px;
+	left: 975px;
 	position: absolute;
 	top: 695px;
 	font-family: newfont;
