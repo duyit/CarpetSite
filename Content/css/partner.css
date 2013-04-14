@@ -1,0 +1,92 @@
+/*Modify css for ProductAll*/
+.main .content .list {
+	width: 90%;
+	margin: auto;
+	min-height: 500px;
+	border-top: 0;
+	padding: 10px;
+}
+.main .content .titlePartner {
+	font-family: newfont;
+	font-size: 26px;
+	width: 85%;
+	font-weight: bold;
+	color: #fff;
+	padding: 16px 18px 20px 18px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+	background: url(../images/insidebottom_.png);
+	z-index: 20;
+	border-radius: 0px 0px 8px 8px;
+	-moz-box-shadow: 2px 3px 10px #000000;
+	-webkit-box-shadow: 2px 3px 10px rgb(236, 236, 236);
+	box-shadow: 2px 3px 10px rgb(219, 217, 217);
+	margin: 0px auto 20px auto;
+}
+.main .content .list .title {
+	padding: 15px 10px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+}
+.main .content .list .leftPartner {
+	width: 65%;
+	min-height: 1245px;
+	float: left;
+	border: 1px solid #dedede;
+	background: #FFF;
+	text-align: left;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	margin-left: 10px;
+	position:relative;
+}
+.main .content .list .leftPartner .groupItemPartner {
+	width: 95%;
+	margin: auto;
+	height: auto;
+}
+.main .content .list .leftPartner .item-list
+{
+	position:absolute;
+	bottom:0;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner {
+	width: 250px;
+	min-height: 250px;
+	text-align: center;
+	border: 1px solid #ddd;
+	float: left;
+	padding:10px 0;
+	margin:20px 0px 0 20px;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner .imgPartner
+{
+	width:250px;
+	height:250px;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner .imgPartner img
+{
+	width:100%;
+	height:100%;
+}
+.main .content .list .leftPartner .groupItemPartner .line1 {
+	border-bottom: 1px solid #ddd;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner .itemImg {
+	width: 150px;
+	min-height: 160px;
+	padding: 5px;
+	float: left;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner .itemImg img {
+	width: 100%;
+}
+.main .content .list .leftPartner .groupItemPartner .itemPartner .info {
+	width: 63.5%;
+	float: left;
+	min-height: 140px;
+	padding: 15px 5px;
+	margin-left: 15px;
+}
+/*End*/

@@ -1,0 +1,173 @@
+/*Modify css for NewsAll*/
+.main .content .list {
+	width: 90%;
+	margin: auto;
+	min-height: 500px;
+	border-top: 0;
+	padding: 10px;
+}
+.main .content .titleNews {
+	font-family: newfont;
+	font-size: 26px;
+	width: 85%;
+	font-weight: bold;
+	color: #fff;
+	padding: 16px 18px 20px 18px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+	background: url(../images/insidebottom_.png);
+	z-index: 20;
+	border-radius: 0px 0px 8px 8px;
+	-moz-box-shadow: 2px 3px 10px #000000;
+	-webkit-box-shadow: 2px 3px 10px rgb(236, 236, 236);
+	box-shadow: 2px 3px 10px rgb(219, 217, 217);
+	margin: 0px auto 20px auto;
+}
+.main .content .list .title {
+	padding: 15px 10px;
+	text-shadow: 1px 1px 2px rgba(94, 94, 94, 1);
+}
+.main .content .list .leftNews {
+	width: 65%;
+	min-height: 1245px;
+	float: left;
+	border: 1px solid #dedede;
+	background: #FFF;
+	text-align: left;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	margin-left: 10px;
+	position:relative;
+}
+.main .content .list .leftNews .groupItemNews {
+	width: 95%;
+	margin: auto;
+	height: auto;
+}
+.main .content .list .leftNews .item-list
+{
+	position:absolute;
+	bottom:0;
+}
+.main .content .list .leftNews .groupItemNews .line1 {
+	border-bottom: 1px solid #ddd;
+}
+.main .content .list .leftNews .groupItemNews .itemNews {
+	width: 95%;
+	min-height: 100px;
+	padding: 5px;
+	margin: 10px 0 0 0;
+	
+}
+.main .content .list .leftNews .groupItemNews .itemNews:nth-child(2n+1)
+{
+	background:#eee;
+	border-bottom: 1px dashed #bbb;
+	border-top: 1px dashed #bbb;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .itemImg {
+	width: 150px;
+	min-height: 160px;
+	padding: 5px;
+	float: left;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .itemImg img {
+	width: 100%;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .info {
+	width: 63.5%;
+	float: left;
+	min-height: 140px;
+	padding: 15px 5px;
+	margin-left: 15px;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .info b.titleNewsText
+{
+	font-size:20px;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .info .nameTimeNews
+{
+	width:100%;
+	color:#999999;	
+	font-size:18px;
+}
+.main .content .list .leftNews .groupItemNews .itemNews .info .contentShortNews
+{
+	font-size:15px;
+}
+/*Css for new_info*/
+.main .content .list .leftNews .contentNews
+{
+	width:100%;
+	min-height:100px;
+	background:#fff;
+}
+.main .content .list .leftNews .contentNews .titleContentNews
+{
+	width:95%;
+	height:60px;
+	padding:10px 0;
+	margin:auto;
+	border-bottom:1px solid #ddd;
+}
+.main .content .list .leftNews .contentNews .titleContentNews p.title
+{
+	padding:0;
+	font-size:20px;
+}
+.main .content .list .leftNews .contentNews .content_
+{
+	width:95%;
+	padding:10px;
+	text-align: justify;
+	margin:auto;
+}
+.main .content .list .leftNews .contentNews .controlComment
+{
+	width: 95%;
+margin: auto;
+background: #eee;
+padding: 10px;
+}
+.main .content .list .leftNews .contentNews .controlComment .commentInput
+{
+	width:98%;
+	height:80px;
+}
+.main .content .list .leftNews .contentNews .listComment
+{
+	width: 95%;
+margin: auto;
+
+padding: 10px;
+}
+.main .content .list .leftNews .contentNews .listComment .itemConment
+{
+	width:100%;
+	height:80px;
+	padding:10px 0;
+	border-bottom:1px dashed #999;
+}
+.main .content .list .leftNews .contentNews .listComment .itemConment .leftItemComment
+{
+	width:20%;
+	height:100%;
+	float:left;
+}
+.main .content .list .leftNews .contentNews .listComment .itemConment .leftItemComment img
+{
+	width:80px;
+	height:80px;
+}
+.main .content .list .leftNews .contentNews .listComment .itemConment .rightItemComment
+{
+	width:75%;
+	height:100%;
+	float:left;
+	padding:0 10px;
+	
+}
+/*End*/
+/*End*/

@@ -132,8 +132,11 @@ $(document).ready(function() {
 		$(this).addClass("btnYellow");
 	});
 	
-	$('.nav ul li,.nav ul li a').hover(function()
+	$('.nav ul li').hover(function()
+	{		
+		$(this).find("ul:first").css({visibility: "visible",display: "none"}).show(200);
+	},function()
 	{
-		$(this).parent().find("ul.subNav").slideDown('fast').show();
+		$(this).find("ul:first").css({visibility: "hidden"});
 	});
 }); 

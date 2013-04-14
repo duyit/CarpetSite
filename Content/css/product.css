@@ -76,6 +76,8 @@
 	padding: 15px 5px;
 	margin-left: 15px;
 }
+
+/*Css handle right*/
 .main .content .list .right {
 	width: 29.5%;
 	height: auto;
@@ -127,7 +129,7 @@
 	height: 6px;
 	background: url(../images/panel_title_add.png) no-repeat;
 }
-.main .content .list .right .box .red_box_product {
+.main .content .list .right .box .red_box_product, .main .content .list .right .box .red_box_news {
 	width: auto;
 	height: auto;
 	background-color: #dd3939;
@@ -206,7 +208,7 @@
 	height: 6px;
 	background: url(../images/panel_title_add.png) no-repeat;
 }
-.main .content .list .right .box_online .red_box_product {
+.main .content .list .right .box_online .red_box_online {
 	width: auto;
 	height: auto;
 	background-color: #dd3939;
@@ -226,7 +228,6 @@
 	padding: 7px 12px 5px 12px;
 	letter-spacing: -1px;
 }
-
 .facebook_like {
 	width: 270px;
 	height: 111px;
@@ -309,6 +310,7 @@
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 }
+/*End*/
 /*Css for product_info*/
 .content .list .leftProduct .infoProduct {
 	width: 100%;
