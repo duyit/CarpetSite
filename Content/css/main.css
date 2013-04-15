@@ -506,12 +506,85 @@ a {
 @media screen and (max-width: 1280px) {
 	*
 	.main .content .certification .cerItemGroup .cerItem {
-		width: 31.99999%;
+		width: 28.99999%;
 	}
 	.main .content .product .item {
 		width: 23.55555%;
 	}
+	.main .content .certification .cerItemGroup .cerItem:first-child
+	{
+		margin-left:35px;
+	}
 }
+@media screen and (max-width: 1360px) {
+	*
+	.main .content .certification .cerItemGroup .cerItem {
+		width: 28.99999%;
+	}
+	.main .content .product .item {
+		width: 23.55555%;
+	}
+	.main .content .certification .cerItemGroup .cerItem:first-child
+	{
+		margin-left:35px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	*
+	.main .content .certification .cerItemGroup .cerItem {
+		width: 28.99999%;
+	}
+	.main .content .product .item {
+		width: 23.55555%;
+	}
+	.main .content .certification .cerItemGroup .cerItem:first-child
+	{
+		margin-left:35px;
+	}
+	
+}
+/*Introduction*/
+.main .content .introduction
+{
+	width:100%;
+	height:100%;
+	background:#fff;
+	height:auto;	
+}
+.main .content .introduction .contentIntro
+{
+	width:90%;
+	min-height:400px;
+	margin:20px auto 20px auto;
+	border-radius:5px;
+	border:1px solid #ddd;
+	padding:10px;
+	font-size:24px;	
+	text-align:justify;
+}
+.main .content .introduction .contentIntro p{
+	line-height:30px;
+}
+.main .content .introduction .contentIntro .titleIntro
+{
+	font-size:36px;
+	width:100%;
+	height:50px;
+	padding:5px 0;
+	text-align:center;
+	color:#da4f49;;
+}
+.main .content .introduction .contentIntro  .infoCompany
+{
+	font-size:20px;
+	font-weight:bold;
+}
+.main .content .introduction .contentIntro .fieldInfoCompany
+{
+	font-weight:bold;
+	color:rgb(52, 95, 187);
+}
+/*End*/
 .clear-fix {
 	clear: both;
 }
