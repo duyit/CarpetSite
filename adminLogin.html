@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<link href="Content/css/admin.css" rel="stylesheet" />
+		<link href="Content/css/bootstrap.css" rel="stylesheet" />	
+		<script src="Content/js/jquery-1.9.1.min.js"></script>
+		<script src="Content/js/cufon-yui.js"></script>
+		<script src="Content/js/FuturaHv_400.font.js"></script>
+		<script src="Content/js/UVN_Bai_Sau_400.font.js"></script>
+		<script>
+			$(document).ready(function()
+			{
+				var topMargin = (screen.height - $('.mainLogin').height())/2- 100;
+				$('.mainLogin').css("margin-top",topMargin);
+			});
+		</script>	
+	</head>
+	<body>
+		<div class="main">
+			<div class="mainLogin">
+				<p class="titleLogin">Login</p>
+				<div class="formLogin">
+					<div class="inputControl">
+						<div class="leftLogin">
+							<p>Ten tai khoan: </p>											
+						</div>
+						<div class="rightLogin">
+							<input type="text" class="userName" value="" name="userName" placeholder="Nhap ten tai khoan..."/>
+						</div>
+					</div>
+					<div class="inputControl">
+						<div class="leftLogin">
+							<p>Mat khau: </p>											
+						</div>
+						<div class="rightLogin">
+							<input type="password" class="password" value="" name="password" placeholder="Mat khau cua ban..."/>
+						</div>
+					</div>	
+					<div class="buttonControlLogin">
+						<button class="btn btn-danger">Dang nhap</button>				
+						<button class="btn btn-danger">Bo qua</button>
+					</div>
+					<div class="clear-fix"></div>
+				</div>
+				<div class="clear-fix"></div>
+			</div>
+		</div>
+	</body>
+</html>
