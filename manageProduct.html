@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<link href="Content/css/bootstrap.css" rel="stylesheet" />
+		<link href="http://twitter.github.io/bootstrap/assets/css/docs.css" rel="stylesheet"/>
+		<link href="Content/css/admin.css" rel="stylesheet" />
+		<script src="Content/js/jquery-1.9.1.min.js"></script>
+		<script src="Content/js/cufon-yui.js"></script>
+		<script src="Content/js/FuturaHv_400.font.js"></script>
+		<script src="Content/js/UVN_Bai_Sau_400.font.js"></script>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container topMenuAdmin" style="width:100%;">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand brandAdmin" href="./index.html">Carpet site</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="">
+                <p class="helloUser">Chào: Admin</p>
+              </li>        
+              <li class="">
+                <a href="./index.html">Home</a>
+              </li>      
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+		<div class="main">
+			<div class="container manageProduct">
+				<div class="row">
+					<div class="span3 bs-docs-sidebar menuAdmin">
+						<ul class="nav nav-list bs-docs-sidenav affix">
+							<li class="active">
+								<a href="manageProduct.html"><i class="icon-chevron-right"></i> Quản lý sản phẩm</a>
+							</li>
+							<li>
+								<a href="#buttonGroups"><i class="icon-chevron-right"></i> Quản lý menu</a>
+							</li>
+							<li>
+								<a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Quản lý bài giới thiệu</a>
+							</li>
+							<li>
+								<a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Quản lý banner</a>
+							</li>
+						</ul>
+						<div class="clear-fix"></div>
+					</div>
+					<div class="span9">
+
+						<!-- Dropdowns
+						================================================== -->
+						<section id="dropdowns">
+							<div class="page-header">
+								<h2>Danh sách sản phẩm</h2>
+							</div>
+							
+							<div class="bs-docs-example bs-docs-sanpham">
+								<a href="addProduct.html" class="btn btn-primary btnAddProduct">Thêm mới sản phẩm</a>
+								<table class="table table-bordered listProduct">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Tên sản phẩm</th>
+											<th>Mô tả sản phẩm</th>
+											<th>Loại sản phẩm</th>
+											<th>Sửa</th>
+											<th>Xóa</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Sản phẩm A</td>
+											<td>Ghi chú sản phẩm A</td>
+											<td>Loại A</td>
+											<td><a href="#" class="edit"><i class="icon-edit"></i></a></td>
+											<td><a href="#" class="edit"><i class="icon-trash"></i></a></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Sản phẩm B</td>
+											<td>Ghi chú sản phẩm B</td>
+											<td>Loại B</td>
+											<td><a href="#" class="edit"><i class="icon-edit"></i></a></td>
+											<td><a href="#" class="edit"><i class="icon-trash"></i></a></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Sản phẩm C</td>
+											<td>Ghi chú sản phẩm C</td>
+											<td>Loại C</td>
+											<td><a href="#" class="edit"><i class="icon-edit"></i></a></td>
+											<td><a href="#" class="edit"><i class="icon-trash"></i></a></td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="pagination">
+								<ul class="paginationProduct">
+									<li>
+										<a href="#">Prev</a>
+									</li>
+									<li>
+										<a href="#">1</a>
+									</li>
+									<li>
+										<a href="#">2</a>
+									</li>
+									<li>
+										<a href="#">3</a>
+									</li>
+									<li>
+										<a href="#">4</a>
+									</li>
+									<li>
+										<a href="#">5</a>
+									</li>
+									<li>
+										<a href="#">Next</a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear-fix"></div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+		</div>
+	</body>
+</html>
